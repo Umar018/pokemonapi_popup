@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="display: flex; justify-content: center">Pokemones</h1>
+    <div class="container" id="container"></div>
+    <button class="load-more" id="loadMoreBtn">Load More</button>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <img id="modal-img"/>
+        <h2 id="modal-name"></h2>
+        <p><b>Type:</b> <span id="modal-type"></span></p>
+        <p><b>Abilities:</b> <span id="modal-abs"></span></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
